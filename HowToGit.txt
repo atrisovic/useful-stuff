@@ -1,0 +1,13 @@
+Create a new repo
+
+echo "# useful-stuff" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/atrisovic/useful-stuff.git
+git push -u origin master
+
+Push an existing repo
+
+git remote add origin https://github.com/atrisovic/useful-stuff.git
+git push -u origin master
