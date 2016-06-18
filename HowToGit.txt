@@ -11,3 +11,5 @@ Push an existing repo
 
 git remote add origin https://github.com/atrisovic/useful-stuff.git
 git push -u origin master
+
+Useful: https://help.github.com/enterprise/11.10.340/user/articles/generating-ssh-keys/
