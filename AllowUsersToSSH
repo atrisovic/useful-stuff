@@ -1,0 +1,5 @@
+Allow a user to shh to a VM
+
+1. ssh as root
+2. cd ~./ssh
+3. add user's public key in authorized_key
