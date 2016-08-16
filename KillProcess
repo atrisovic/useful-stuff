@@ -1,0 +1,12 @@
+
+All processes:  ps -A
+
+Find PID: pidof mysqld
+
+Find process: ps aux | grep mysqld, pgrep mysql
+
+Kill: kill [signal or option] PID(s)
+
+Kill using the process name: pkill mysqld, killall mysqld
+
+Check status: service mysql status
