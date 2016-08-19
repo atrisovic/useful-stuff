@@ -1,0 +1,8 @@
+lb-run LHCbDirac/latest
+dirac-proxy-info
+dirac-proxy-init
+lb-run LHCbDIRAC/latest dirac-proxy-init
+
+
+lb-run LHCbDIRAC/latest bash -norc
+dirac-proxy-init
