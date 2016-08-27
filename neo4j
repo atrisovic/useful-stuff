@@ -1,0 +1,12 @@
+stop:  '/root/NEO4J_HOME/bin/neo4j' stop
+start: ./bin/neo4j console
+shell: ./bin/neo4j-shell
+
+delete everything
+MATCH (n)
+DETACH DELETE n
+
+Set the location of the database if you are in server mode from the file
+conf/neo4j-server.properties
+by editing the below line.
+org.neo4j.server.database.location=data/graph.db
