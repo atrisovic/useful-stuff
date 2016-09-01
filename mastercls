@@ -1,0 +1,5 @@
+SetupProject DaVinci v36r3
+cd LHCbMasterclass/
+cmake .
+make
+./LHCb_launcher
