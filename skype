@@ -1,0 +1,5 @@
+cd ~/.Skype
+find ./  -name "*.lock" | xargs rm
+find ./  -name "*.lck" | xargs rm
+rm -rf .Skype
+killall skype
