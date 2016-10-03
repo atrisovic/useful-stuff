@@ -3,3 +3,7 @@ find ./  -name "*.lock" | xargs rm
 find ./  -name "*.lck" | xargs rm
 rm -rf .Skype
 killall skype
+
+worked:
+kill -9 $(pgrep skype)
+More at: http://askubuntu.com/questions/91847/how-to-kill-a-process-when-i-cant-kill-it-via-the-gui-and-kill-in-the-terminal
