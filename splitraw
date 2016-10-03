@@ -1,0 +1,1 @@
+dd if=/eos/lhcb/grid/prod/lhcb/buffer/lhcb/data/2016/RAW/FULL/LHCb/COLLISION16/176881/176881_0000000608.raw of=ana.raw bs=1M count=10
