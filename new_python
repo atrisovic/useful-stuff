@@ -6,3 +6,5 @@ yum groupinstall "Development tools"
 ./configure --prefix=/usr/local
 make && make altinstall
 ls -ltr /usr/bin/python*
+
+https://github.com/h2oai/h2o-2/wiki/installing-python-2.7-on-centos-6.3.-follow-this-sequence-exactly-for-centos-machine-only
