@@ -1,0 +1,7 @@
+wget https://root.cern.ch/download/root_v6.12.06.Linux-centos7-x86_64-gcc4.8.tar.gz
+gunzip root_v6.12.06.Linux-centos7-x86_64-gcc4.8.tar.gz
+tar xvf root_v6.12.06.Linux-centos7-x86_64-gcc4.8.tar
+mv root /opt/root
+export ROOTSYS=/opt/root/
+export PATH=$ROOTSYS/bin:$PATH
+export LD_LIBRARY_PATH=$ROOTSYS/lib:$LD_LIBRARY_PATH
